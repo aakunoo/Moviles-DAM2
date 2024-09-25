@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="hola">Hola!</string>
+    <string name="pulsame_a_mi">Pulsame a mi!</string>
+    <string name="pulsame">Pulsame!</string>
+</resources>
