@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Factorial</string>
+    <string name="factorial">Factorial</string>
+    <string name="numero">Numero:</string>
+    <string name="calculo_del_factorial">Calculo del factorial</string>
+    <string name="quot_quot">\" \"</string>
+</resources>
