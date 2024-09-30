@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculoNumerosPrimos</string>
+    <string name="calculadora_de_numeros_primos">Calculadora de numeros primos:</string>
+    <string name="introduce_que_numero_primo_quieres_calcular_por_ejemplo_si_quieres_el_sexto_primo_pon_6_y_obtendras_11">Introduce que numero primo quieres calcular. Por ejemplo si quieres el sexto primo pon 6 y obtendras 11.</string>
+    <string name="calcular">Calcular</string>
+    <string name="numero">Numero:</string>
+    <string name="textview">TextView</string>
+    <string name="resultf">" "</string>
+    <string name="resultadoprimo">" "</string>
+</resources>

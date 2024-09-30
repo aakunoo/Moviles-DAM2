@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
     TextView resultfact;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,23 +37,23 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
+                Factorizar();
 
             }
         });
     }
 
-    public void Factorizar(){
+    public void Factorizar() {
         int numero = Integer.parseInt(numtxt.getText().toString());
-        int resultf=1;
+        int resultf = 1;
 
-        if(numero>0){
-            for (int i = 0; i <=numero; i++) {
-                // Sin terminar
+
+        if (numero > 0) {
+            for (int i = 1; i <= numero; i++) {
+                resultf = resultf * i;
+
             }
-
         }
+        resultfact.setText(String.valueOf(resultf));
     }
-
-
-
 }
