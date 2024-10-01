@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Circunferencia</string>
+    <string name="txt1">Radio:</string>
+    <string name="numtxt">radio</string>
+    <string name="bt1">Button</string>
+    <string name="calcular">Calcular</string>
+    <string name="longitud">Longitud</string>
+    <string name="txt2">Longitud:</string>
+    <string name="area">Area:</string>
+    <string name="volumen">Volumen:</string>
+    <string name="introduce_un_numero">Introduce un numero</string>
+</resources>
