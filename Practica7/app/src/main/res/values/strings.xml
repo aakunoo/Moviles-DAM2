@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PrimosEntreDosNumeros</string>
+    <string name="buscar">Buscar</string>
+    <string name="introduce_un_numero">Introduce un numero</string>
+    <string name="introduce_otro_numero">Introduce otro numero</string>
+    <string name="primos">Primos</string>
+    <string name="valor_final">Valor final:</string>
+    <string name="valor_inicial">Valor inicial:</string>
+</resources>
