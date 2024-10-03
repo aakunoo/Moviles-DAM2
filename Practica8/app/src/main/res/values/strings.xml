@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculadoraConRadioGroupyButton</string>
+    <string name="introduce_un_numero">Introduce un numero</string>
+    <string name="introduce_otro_numero">Introduce otro numero</string>
+    <string name="division">Division</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="operando1">Operando1</string>
+    <string name="operando2">Operando2</string>
+</resources>
