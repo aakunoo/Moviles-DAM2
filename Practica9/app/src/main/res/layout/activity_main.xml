@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="114dp"
+        android:layout_height="238dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239"
+        tools:ignore="TextSizeCheck">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rojo"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/azul"
+            tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="166dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verde"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="214dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blanco"
+            tools:ignore="DuplicateSpeakableTextCheck"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="262dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/negro"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="310dp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="376dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:hint="@string/introduce_un_texto"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="Autofill,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="98dp"
+        android:layout_height="21dp"
+        android:text="@string/color_de_fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.667"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_de_letra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:text="@string/monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:text="@string/serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:text="@string/negrita"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="92dp"
+        android:layout_height="48dp"
+        android:text="@string/cursiva"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color_de_la_fuente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="112dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="TextSizeCheck">
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rojo2"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/azul2"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="482dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verde2"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="530dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blanco2" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/negro2"
+            tools:layout_editor_absoluteX="17dp"
+            tools:layout_editor_absoluteY="626dp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

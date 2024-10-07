@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RadioyCheck</string>
+    <string name="negrita">Negrita</string>
+    <string name="monospace">MonoSpace</string>
+    <string name="serif">Serif</string>
+    <string name="cursiva">Cursiva</string>
+    <string name="introduce_un_texto">Introduce un texto.</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+    <string name="blanco">Blanco</string>
+    <string name="negro">Negro</string>
+    <string name="color_de_fondo">Color de fondo</string>
+    <string name="tipo_de_letra">Tipo de letra</string>
+    <string name="negro2">Negro</string>
+    <string name="rojo2">Rojo</string>
+    <string name="azul2">Azul</string>
+    <string name="verde2">Verde</string>
+    <string name="blanco2">Blanco</string>
+    <string name="color_de_la_fuente">Color de la fuente</string>
+</resources>
