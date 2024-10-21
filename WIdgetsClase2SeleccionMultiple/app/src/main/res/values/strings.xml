@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SeleccionMultiple</string>
+    <string name="seleccion">Seleccion</string>
+    <string name="elige">Elige</string>
+</resources>
