@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="aqui_saldra_tu_eleccion">Aqui saldra tu eleccion.</string>
+    <string name="selecciona_tu_provincia">Selecciona tu provincia!</string>
+</resources>
