@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <item
+        android:id="@+id/agrandarfuente"
+        android:title="Agrandar Fuente" />
+    <item
+        android:id="@+id/reducirFuente"
+        android:title="Reducir Fuente" />
+    <item
+        android:id="@+id/salir"
+        android:title="Salir" />
+
+
+</menu>
