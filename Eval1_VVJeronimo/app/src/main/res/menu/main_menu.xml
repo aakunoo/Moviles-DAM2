@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_tamaño"
+        android:title="@string/tama_o"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_2x2"
+                android:title="@string/_2_x_2" />
+            <item
+                android:id="@+id/menu_3x3"
+                android:title="@string/_3_x_3" />
+            <item
+                android:id="@+id/menu_4x4"
+                android:title="@string/_4_x_4" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_tipo"
+        android:title="@string/tipo_caracteres"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menu_numeros"
+                android:title="@string/n_meros" />
+            <item
+                android:id="@+id/menu_letras"
+                android:title="@string/letras" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Eval1_VVJeronimo</string>
+    <string name="_2_x_2">2 x 2</string>
+    <string name="_3_x_3">3 x 3</string>
+    <string name="_4_x_4">4 x 4</string>
+    <string name="letras">Letras</string>
+    <string name="n_meros">Números</string>
+    <string name="tipo_caracteres">Tipo caracteres</string>
+    <string name="tama_o">Tamaño</string>
+</resources>
