@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="introduce_numero_de_tlf">Introduce numero de tlf</string>
+    <string name="numero_de_telefono">Numero de telefono:</string>
+    <string name="mensaje">Mensaje:</string>
+    <string name="aqui_va_el_mensaje">Aqui va el mensaje</string>
+</resources>
