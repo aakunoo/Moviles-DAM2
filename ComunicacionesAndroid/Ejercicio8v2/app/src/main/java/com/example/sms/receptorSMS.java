@@ -41,7 +41,6 @@ public class receptorSMS extends BroadcastReceiver {
         }
     }
 
-    // Interfaz para comunicar el receptor con la actividad
     public interface onRecibeSMS {
         void onRecibeSMS(String origen, String mensaje);
     }

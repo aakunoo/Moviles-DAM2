@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements receptorSMS.onRec
             return insets;
         });
 
-        // Inicializar vistas
         et1 = findViewById(R.id.et1);
         et2 = findViewById(R.id.et2);
         tvrecibe = findViewById(R.id.tvrecibe);
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements receptorSMS.onRec
         }
     }
 
-    // Solicitar permisos necesarios
+    //  permisos necesarios
     private void solicitarPermisos() {
         String[] permisos = {
                 Manifest.permission.SEND_SMS,
