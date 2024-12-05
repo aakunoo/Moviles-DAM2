@@ -5,6 +5,7 @@ import android.content.ContentResolver;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -22,7 +23,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText etBuscar;
+    private EditText etBuscar, etMensaje;
     private Button btnBuscar;
     private ListView lvContactos;
     private ArrayAdapter<String> adapter;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         etBuscar = findViewById(R.id.etBuscar);
+        etMensaje = findViewById(R.id.etMensaje); 
         btnBuscar = findViewById(R.id.btnBuscar);
         lvContactos = findViewById(R.id.lvContactos);
 
@@ -43,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
         lvContactos.setAdapter(adapter);
 
         ActivityCompat.requestPermissions(this, new String[]{
-                Manifest.permission.READ_CONTACTS, Manifest.permission.SEND_SMS
+                Manifest.permission.READ_CONTACTS,
+                Manifest.permission.SEND_SMS
         }, 1);
 
         btnBuscar.setOnClickListener(new View.OnClickListener() {
@@ -102,7 +105,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void enviarSMS(String contacto) {
-        Toast.makeText(this, "SMS enviado a " + contacto, Toast.LENGTH_SHORT).show();
+        String mensaje = etMensaje.getText().toString();
+        if (mensaje.isEmpty()) {
+            Toast.makeText(this, "Por favor, introduce un mensaje.", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
+        try {
+            SmsManager smsManager = SmsManager.getDefault();
+            smsManager.sendTextMessage(contacto, null, mensaje, null, null);
+            Toast.makeText(this, "SMS enviado a " + contacto, Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            Toast.makeText(this, "Error al enviar SMS.", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
     }
 }
