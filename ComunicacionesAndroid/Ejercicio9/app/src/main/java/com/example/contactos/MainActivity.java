@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         etBuscar = findViewById(R.id.etBuscar);
-        etMensaje = findViewById(R.id.etMensaje); 
+        etMensaje = findViewById(R.id.etMensaje);
         btnBuscar = findViewById(R.id.btnBuscar);
         lvContactos = findViewById(R.id.lvContactos);
 
