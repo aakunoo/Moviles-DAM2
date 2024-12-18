@@ -10,6 +10,6 @@ public class Alarma extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         // Mensaje emergente al activarse la alarma
-        Toast.makeText(context, "DESPIERTAAAAAAAAAAAA QUE YA ES HORAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", Toast.LENGTH_LONG).show();
+        Toast.makeText(context, "DESPIERTAAAAAAAAAAAA", Toast.LENGTH_LONG).show();
     }
 }
