@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="zonas">
+        <item>Peña de Francia</item>
+        <item>Sierra de Gredos</item>
+        <item>Hoces del Duratón</item>
+    </string-array>
+
+    <string-array name="zonas_valores">
+        <item>francia</item>
+        <item>gredos</item>
+        <item>duraton</item>
+    </string-array>
+
+</resources>
