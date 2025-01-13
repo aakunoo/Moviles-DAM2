@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Héroes favoritos">
+        <CheckBoxPreference
+            android:key="batman"
+            android:title="Batman" />
+        <CheckBoxPreference
+            android:key="spiderman"
+            android:title="Spiderman" />
+        <CheckBoxPreference
+            android:key="superman"
+            android:title="Superman" />
+        <CheckBoxPreference
+            android:key="wonder_woman"
+            android:title="Wonder Woman" />
+        <CheckBoxPreference
+            android:key="daredevil"
+            android:title="Daredevil" />
+        <CheckBoxPreference
+            android:key="ironman"
+            android:title="Ironman" />
+        <CheckBoxPreference
+            android:key="capitan_america"
+            android:title="Capitán América" />
+    </PreferenceCategory>
+</PreferenceScreen>

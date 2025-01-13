@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Aficiones">
+        <MultiSelectListPreference
+            android:key="aficiones"
+            android:title="¿Cuáles son tus aficiones?"
+            android:summary="Puedes elegir varias"
+            android:entries="@array/aficiones"
+            android:entryValues="@array/aficiones_valores"
+            android:dialogTitle="¿Cuáles son tus aficiones?" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Datos básicos">
+        <EditTextPreference
+            android:key="nombre"
+            android:title="Nombre"
+            android:summary="Introduce nombre o apodo" />
+        <EditTextPreference
+            android:key="email"
+            android:title="Correo electrónico"
+            android:summary="Cuidado al teclear" />
+        <CheckBoxPreference
+            android:key="internetEnCasa"
+            android:title="¿Tienes Internet en casa?"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Queremos conocer algo más sobre ti">
+        <ListPreference
+            android:key="zonaCL"
+            android:title="¿Qué zona de Castilla y León te gusta más?"
+            android:summary="Elige una zona de las que te ofrecemos"
+            android:dialogTitle="Elige una región" />
+    </PreferenceCategory>
+</PreferenceScreen>

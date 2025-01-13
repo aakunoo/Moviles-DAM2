@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Preferencias2</string>
+
+    <string-array name="aficiones">
+        <item>Motos</item>
+        <item>Running</item>
+        <item>Leer</item>
+        <item>Cine</item>
+        <item>Informática</item>
+        <item>Música</item>
+        <item>Papiroflexia</item>
+        <item>Viajar</item>
+        <item>Sofá</item>
+    </string-array>
+
+    <string-array name="aficiones_valores">
+        <item>motos</item>
+        <item>running</item>
+        <item>leer</item>
+        <item>cine</item>
+        <item>informatica</item>
+        <item>musica</item>
+        <item>papiroflexia</item>
+        <item>viajar</item>
+        <item>sofa</item>
+    </string-array>
+</resources>

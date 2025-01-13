@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.example.preferencias2.Datos_Personales"
+        android:title="Datos personales"
+        android:summary="Introduce tus datos personales" />
+
+    <header
+        android:fragment="com.example.preferencias2.HeroesFavoritos"
+        android:title="Superhéroes favoritos"
+        android:summary="¿Cuáles son tus superhéroes favoritos?" />
+
+    <header
+        android:fragment="com.example.preferencias2.Aficiones"
+        android:title="Aficiones"
+        android:summary="¿Cuáles son tus aficiones?" />
+</preference-headers>
