@@ -24,4 +24,34 @@
         <item>viajar</item>
         <item>sofa</item>
     </string-array>
+    <string-array name="tipos_mascotas">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Pájaro</item>
+        <item>Pez</item>
+        <item>Reptil</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="tipos_mascotas_valores">
+        <item>perro</item>
+        <item>gato</item>
+        <item>pajaro</item>
+        <item>pez</item>
+        <item>reptil</item>
+        <item>otro</item>
+    </string-array>
+
+    <!-- Tamaño de la mascota -->
+    <string-array name="tamanio_mascota">
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+        <item>Gigante</item>
+    </string-array>
+    <string-array name="tamanio_mascota_valores">
+        <item>pequeno</item>
+        <item>mediano</item>
+        <item>grande</item>
+        <item>gigante</item>
+    </string-array>
 </resources>

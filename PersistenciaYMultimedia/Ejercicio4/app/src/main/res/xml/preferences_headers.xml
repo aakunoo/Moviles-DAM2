@@ -14,4 +14,11 @@
         android:fragment="com.example.preferencias2.Aficiones"
         android:title="Aficiones"
         android:summary="¿Cuáles son tus aficiones?" />
+
+    <header
+        android:fragment="com.example.preferencias2.Mascotas"
+        android:title="Configuración de Mascotas"
+        android:summary="Preferencias para tus mascotas" />
+
+
 </preference-headers>

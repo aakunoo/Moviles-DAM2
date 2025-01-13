@@ -14,6 +14,7 @@ public class MisFragmentPreferencias extends PreferenceActivity {
     protected boolean isValidFragment(String fragmentName) {
         return Datos_Personales.class.getName().equals(fragmentName) ||
                 HeroesFavoritos.class.getName().equals(fragmentName) ||
-                Aficiones.class.getName().equals(fragmentName);
+                Aficiones.class.getName().equals(fragmentName) ||
+                Mascotas.class.getName().equals(fragmentName);
     }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Información de la mascota">
+        <EditTextPreference
+            android:key="nombreMascota"
+            android:title="Nombre de la mascota"
+            android:summary="Introduce el nombre de tu mascota" />
+
+        <ListPreference
+            android:key="tipoMascota"
+            android:title="Tipo de mascota"
+            android:summary="Selecciona el tipo de tu mascota"
+            android:entries="@array/tipos_mascotas"
+            android:entryValues="@array/tipos_mascotas_valores"
+            android:dialogTitle="Elige el tipo de tu mascota" />
+
+        <MultiSelectListPreference
+            android:key="tamanioMascota"
+            android:title="Tamaño de la mascota"
+            android:summary="Selecciona una o más opciones"
+            android:entries="@array/tamanio_mascota"
+            android:entryValues="@array/tamanio_mascota_valores"
+            android:dialogTitle="Selecciona el tamaño de la mascota" />
+
+        <CheckBoxPreference
+            android:key="esAmigable"
+            android:title="¿Es amigable?"
+            android:summary="Marca si tu mascota es amigable" />
+    </PreferenceCategory>
+</PreferenceScreen>
