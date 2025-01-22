@@ -3,6 +3,7 @@ package com.example.ejercicio9;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
@@ -36,7 +37,17 @@ public class MainActivity extends AppCompatActivity {
 
         videoView = findViewById(R.id.videoView);
         mediaController = new MediaController(this);
+        mediaController.setPrevNextListeners(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+            }
+        }, new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
         setupMediaController();
         playSong(currentSongIndex);
     }
